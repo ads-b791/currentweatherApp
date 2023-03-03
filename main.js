@@ -12,7 +12,6 @@ form.onsubmit = function (e) {
 
 	const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
-
 	fetch(url).then((response) => {
 		return response.json()
 	}).then((data) => {
@@ -42,8 +41,6 @@ form.onsubmit = function (e) {
 			header.insertAdjacentHTML('afterend', html);
 
 		}
-
-
 
 	})
 
