@@ -141,6 +141,8 @@ body {
 }
 
 .card-img {
+	width: 80%;
+	object-fit: contain;
 }
 
 .card-description {
